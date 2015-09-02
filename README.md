@@ -23,3 +23,10 @@ nähert er nur solange schaltet wie man auch an ihm bleibt. Der Zweite Modus
 soll einen Umschalter darstellen, d.h.: das wenn man sich dem Schalter nähert
 er umschaltet, wie das z.B. bei Licht der Fall wäre.
 
+<<<<<<< HEAD
+=======
+Es soll später 2 verschiedene Modi geben. Der Erste stellt einen Taster
+dar und der Zweite stellt einen Schalter dar d.h.: das wenn man die
+Hand im ersten modus vor den Schalter hält, schaltet er solange wie
+sie davor ist und im Zweite wird einfach umgeschaltet.
+>>>>>>> 16e691d49fd53852a0bc75f8eef302978dff9f89
