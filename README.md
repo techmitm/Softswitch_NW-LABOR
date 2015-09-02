@@ -1,16 +1,25 @@
 # Softswitch NW-LABOR
-Ein ohne Druck zu bedienender Schalter
+Ein ohne Druck bedienbarer Schalter
 
+#Idee
 Die Idee ist es, einen behindertengerechten Schalter zu entwickeln,
-welcher nicht optisch bzw. haptisch ausgelöst wird, sondern durch
-ein einfaches näheren an den Schalter. Dies soll so umgesetzt werden,
-dass die Emmitierung von Elektronen aus der Hand verstärkt und
-gemessen wird. Dazu soll nachher ein Darlington-Array dienen, welches
-an einem Mikrokontroller angeschlossen ist, dieser wird höchstwahr-
-scheinlich ein ATTINY13/45 sein. Die Aufgabe des ATTiny's wird es sein
-die Messwerte ein zu lesen und dann zu verarbeiten.
+welcher nicht optisch und auch nicht ausschließlich Haptisch bedient
+wird, sonder nur durch das annähren der Hand ausgelöst werden soll.
 
-Es soll später 2 verschiedene Modi geben. Der Erste stellt einen Taster
-dar und der Zweite stellt einen Schalter dar d.h.: das wenn man die
-Hand im ersten modus vor den Schalter hält, er solange schaltet wie
-sie davor ist und im Zweite wird einfach umgeschaltet.
+#Umsetzung
+Umgesetzt soll das alles so werden, dass eine Platte, welche höchst-
+wahrscheinlich aus Aluminium bestehen wird Elektronen die von der
+Hand abgegeben werden aufnimmt und durch eine Verstärkerstufe
+verstärkt wird. Das Signal soll dann durch einen Mikroprozessor
+gewertet werden und darauf reagiert.
+
+#Features
+Der Schalter soll nich ausschließlich durch dieses Verfahren ausgelöst werden,
+sondern auch durch ein physikalisches Drücken auf ihn. Das soll dazu dienen,
+dass wenn die Funktion aus irgendeinem Grund ausfallen sollte er Trotzdem noch
+bedient werden kann. Zudem soll man zwischen zwei Modi wechseln können. Der erste
+Modus soll einen Taster dar stellen, d.h.: das wenn man sich dem Schalter
+nähert er nur solange schaltet wie man auch an ihm bleibt. Der Zweite Modus
+soll einen Umschalter darstellen, d.h.: das wenn man sich dem Schalter nähert
+er umschaltet, wie das z.B. bei Licht der Fall wäre.
+
